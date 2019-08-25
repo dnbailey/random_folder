@@ -1,7 +1,7 @@
 name: random_folder
 description: A sample command-line application.
 version: 1.0.0
-# homepage: https://www.example.com
+homepage: https://github.com/dnbailey/random_folder
 author: Nathan Bailey <dev@dnbailey.org>
 
 environment:
@@ -9,6 +9,7 @@ environment:
 
 dependencies:
   english_words: ^3.1.5
+  args: ^1.5.2
 
 executables:
   mkrdir: main
