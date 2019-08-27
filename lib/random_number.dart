@@ -7,8 +7,10 @@ int generateNumbers({int digits = 6}) {
     int num = Random().nextInt(9);
     num *= pow(10, i);
     _finalNum += num;
+  }
 
-    if (_finalNum < 100000) _finalNum += 100000;
+  if (_finalNum < pow(10, digits) && _finalNum > 0) {
+    _finalNum += pow(10, digits);
   }
 
   return _finalNum;
