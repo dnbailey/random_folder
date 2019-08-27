@@ -1,4 +1,4 @@
-## 1.0.2
+## 1.0.3
 
 - Add the emoji flag and generate cowboy happy face directory
 
