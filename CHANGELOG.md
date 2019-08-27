@@ -1,5 +1,9 @@
 ## 1.0.3
 
+- Remove unnecessary emoji library.
+
+## 1.0.3
+
 - Add the emoji flag and generate cowboy happy face directory
 
 ## 1.0.2

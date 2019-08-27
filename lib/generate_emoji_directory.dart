@@ -1,9 +1,7 @@
 import 'dart:io';
 
-import 'package:demoji/demoji.dart';
-
 void generateEmojiDirectory() {
-  Directory folder = Directory(Demoji.cowboy_hat_face);
+  Directory folder = Directory('🤠');
 
   folder.create();
   folder.exists().then((isThere) => isThere

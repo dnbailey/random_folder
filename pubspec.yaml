@@ -1,6 +1,6 @@
 name: random_folder
 description: A Dart random folder generator that uses random words and numbers to create directory for new projects
-version: 1.0.3
+version: 1.0.4
 homepage: https://github.com/dnbailey/random_folder
 author: Nathan Bailey <dev@dnbailey.org>
 repository: https://github.com/dnbailey/random_folder
@@ -11,7 +11,6 @@ environment:
 dependencies:
   english_words: ^3.1.5
   args: ^1.5.2
-  demoji: ^1.0.1
 
 executables:
   mkrdir: main
