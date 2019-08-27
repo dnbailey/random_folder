@@ -1,4 +1,4 @@
-## 1.0.3
+## 1.0.4
 
 - Remove unnecessary emoji library.
 
